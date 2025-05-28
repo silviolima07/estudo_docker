@@ -28,12 +28,12 @@ O script Python neste projeto se conecta à API do Banco Mundial, extrai dados d
 4. Execute:
    ### docker build -t pib-bm .
 
-   ![image](https://github.com/silviolima07/estudo_docker/blob/main/img_docker_pib.png)
-
 6. Execute:
    ### docker run pib-bm
 
-7. Visualize sua imagem docker criada:
+     ![image](https://github.com/silviolima07/estudo_docker/blob/main/img_docker_pib.png)
+
+8. Visualize sua imagem docker criada:
    ### docker ps -a
 
 ## 2. Agente de Viagens Inteligente com CrewAI e Streamlit 
@@ -59,6 +59,7 @@ O script Python neste projeto se conecta à API do Banco Mundial, extrai dados d
    ### localhost:8501
 
    ![image](https://github.com/user-attachments/assets/9a5de1b4-e4eb-4b8a-bbf3-8ea814ca16a1)
+   ![image](https://github.com/silviolima07/estudo_docker/blob/main/img_docker.png)
 
    
 
