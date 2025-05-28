@@ -28,6 +28,8 @@ O script Python neste projeto se conecta à API do Banco Mundial, extrai dados d
 4. Execute:
    ### docker build -t pib-bm .
 
+   ![image](https://github.com/silviolima07/estudo_docker/blob/main/img_docker_pib.png)
+
 6. Execute:
    ### docker run pib-bm
 
