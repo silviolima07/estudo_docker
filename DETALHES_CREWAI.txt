@@ -1,0 +1,20 @@
+Problemas com a versao das libs,foram corrigidos ajustando e fixando a versao das libs.
+Foi incluido a informacao de LLM usando groq, pois o agente nao tinha essa informacao e usava openai key.
+Foi criado um.dockerignore para nao copiar .venv e .env para o diretorio de trabalho /appna imagem gerada.
+Criado o arquivo Dockerfile, onde informamos a versao do python a ser usado, criamos o diretorio /app.
+O arquivo requirements.txt foi usado para carregar as libs usadas, nas versoes definidas.
+O comando copy levou os arquivos do diretorio local para /app. Seguindo as restricoes em .dockerignore.
+
+Ao executar a imagem, o comando python executa o arquivo main.py.
+Assim a aplicacao com crewai, agentes e tasks foi executada com sucesso.
+
+===========================================================
+CREWAI / Streamlit
+
+- docker build -t viagem-app
+- docker ps -a
+- docker stop viagem-app / docker rm viagem-app
+
+Chaves do groq e openrouter estao no arquivo .env local
+- docker run -d -p 8501:8501 --name viagem-app --env-file .env viagem-app
+
