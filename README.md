@@ -53,9 +53,9 @@ O script Python neste projeto se conecta à API do Banco Mundial, extrai dados d
    ### docker build -t viagem-app .
 
 5. Obter as chaves que serão necessãrias para execução e salvar no arquivo .env:
-   SERPER_API_KEY='sua_chave'
-   GROQ_API_KEY='sua_chave'
-   OPENROUTER_API_KEY='sua_chave'   
+   * SERPER_API_KEY='sua_chave'
+   * GROQ_API_KEY='sua_chave'
+   * OPENROUTER_API_KEY='sua_chave'   
 
 7. Execute:
    ### docker run -d -p 8501:8501 --name viagem-app --env-file .env viagem-app
