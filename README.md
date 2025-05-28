@@ -58,7 +58,6 @@ O script Python neste projeto se conecta à API do Banco Mundial, extrai dados d
 7. Em uma nova aba do Browser:
    ### localhost:8501
 
-   ![image](https://github.com/user-attachments/assets/9a5de1b4-e4eb-4b8a-bbf3-8ea814ca16a1)
    ![image](https://github.com/silviolima07/estudo_docker/blob/main/img_docker.png)
 
    
