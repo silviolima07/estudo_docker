@@ -1,7 +1,6 @@
 ## Estudos de Docker
-Bem-vindo ao meu repositório de estudos! 
-Aqui você encontrará dois projetos distintos que demonstram minhas habilidades em análise de dados, 
-integração de APIs e desenvolvimento de agentes inteligentes usando LLMs.
+   Criar dois exemplos de uso do docker.
+   Uma aplicação básica e uma aplicação com interface gráfica.
 
 
 ## Sumário
